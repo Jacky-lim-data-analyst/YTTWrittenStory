@@ -15,3 +15,6 @@ output_markdown/
 # database
 *.db
 response.json
+
+# system environment
+.env
