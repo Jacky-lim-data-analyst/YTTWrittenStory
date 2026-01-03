@@ -56,7 +56,7 @@ translate_agent:
     model_name: gemini-2.5-flash-lite
     options:
       temperature: 0.5
-      top_p: 0.9
+      top_p: 0.95
 edit_agent:
   system_prompt: 'You are a skilled content editor specializing in making Chinese
     text more engaging and readable for online audiences.
@@ -122,13 +122,12 @@ edit_agent:
 
     Output: "机器学习是人工智能的重要分支,它的神奇之处在于:计算机可以自主学习,而不需要我们为每个场景编写详细的指令。"
 
-
     Begin editing now.'
   gemini_settings:
     model_name: gemini-2.5-flash
     options:
-      temperature: 0.7
-      top_p: 0.95
+      temperature: 0.3
+      top_p: 0.4
 structurer_agent:
   system_prompt: "You are an expert Content Strategist and Metadata Architect. \n\
     \        Your goal is to transform raw textual content into a highly organized,\
