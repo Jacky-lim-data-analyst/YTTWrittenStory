@@ -47,8 +47,9 @@
 
 ## Usage
 
-Currently, the project is set up to run via the `main.py` script.
+Currently, the project is set up to run via the `main.py` and `cli.py` script.
 
+### Using `main.py`
 1.  Open `main.py` and update the `video_id` and `title` variables with the YouTube video you want to process:
     ```python
     video_id = "<YoutubeVideoID>" # Replace with your YouTube Video ID
@@ -62,6 +63,12 @@ Currently, the project is set up to run via the `main.py` script.
 
 3.  **Check the output:**
     The generated Markdown file will be saved in the `output/` directory, e.g., `output/20260102_095604_Title.md`.
+
+### CLI
+Run the script:
+```bash
+python cli.py -v <YouTube-video-id> -t "<title>"
+```
 
 ## Configuration
 
