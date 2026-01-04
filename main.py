@@ -9,8 +9,8 @@ from src.utils.logging import get_logger
 
 logger = get_logger(__name__)
 
-video_id = "F2Wf0qKZ5fg"
-title = "This Thai resort is a TOURIST (DEATH) TRAP"
+video_id = "ods966X8rp8"
+title = "These SECRET messages led to a HORRIFYING discovery..."
 
 snippet_list, video_metadata = fetch_yt_transcript(video_id=video_id, title=title)
 logger.info(f"Retrieved {len(snippet_list)} transcript snippets")
